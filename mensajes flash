@@ -1,0 +1,3 @@
+@if(session("mensaje"))
+<h3 style="color: blue;">{{ session("mensaje") }}</h3>
+@endif
